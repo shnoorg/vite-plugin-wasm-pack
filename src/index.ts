@@ -130,7 +130,7 @@ function vitePluginWasmPack(
           }
         }
         // replace default load path with '/assets/xxx.wasm'
-        const jsName = outName ?? crateName.replace(/\-/g, '_') + '.js';
+        const jsName = (outName ?? crateName.replace(/\-/g, '_')) + '.js';
 
         /**
          * if use node module and name is '@group/test'
