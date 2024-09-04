@@ -1,6 +1,6 @@
 {
   "name": "@authtastic/vite-plugin-wasm-pack",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Vite plugin for rust using wasm-pack 🦀",
   "main": "dist/index.js",
   "module": "esm/index.js",
@@ -12,24 +12,14 @@
     "build": "tsc && tsc -p tsconfig.esm.json",
     "dev": "tsc -w"
   },
-  "keywords": [
-    "wasm-pack",
-    "wasm-bindgen",
-    "vite-plugin",
-    "webassembly",
-    "wasm",
-    "rust",
-    "vite",
-    "cargo"
-  ],
   "author": "nshen <nshen121@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nshen/vite-plugin-wasm-pack"
+    "url": "git+https://github.com/shnoorg/vite-plugin-wasm-pack"
   },
   "bugs": {
-    "url": "https://github.com/nshen/vite-plugin-wasm-pack/issues"
+    "url": "https://github.com/shnoorg/vite-plugin-wasm-pack/issues"
   },
   "devDependencies": {
     "@tsconfig/node12": "^1.0.9",

@@ -16,6 +16,10 @@
   
 </h4>
 
+## Fork
+
+This package is a fork of https://www.npmjs.com/package/vite-plugin-wasm-pack, which adds support for handling packages with custom `--out-name`s.
+
 ## Quick start
 
 Make sure [wasm-pack](https://github.com/rustwasm/wasm-pack) installed correctly.
